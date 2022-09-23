@@ -21,7 +21,8 @@ a {
   text-decoration: none;
 }
 
-p, .p {
+p,
+.p {
   font-family: Poppins;
   font-size: 16pt;
   color: black;
@@ -70,9 +71,11 @@ p, .p {
 .about-us p {
   color: rgb(109, 177, 109);
 }
-
 .about-us h3 {
   margin-top: 0%;
+}
+.about-us .link-more p {
+  color: rgb(0, 0, 0);
 }
 
 .img-abstract-picture {
@@ -95,10 +98,6 @@ p, .p {
   font-size: 12px;
 }
 
-.about-us .link-more p {
-  color: rgb(0, 0, 0);
-}
-
 .img-abstract-info {
   display: grid;
   grid-template-columns: 200px 1fr;
@@ -110,7 +109,6 @@ p, .p {
   padding-top: 32px;
   padding-bottom: 32px;
 }
-
 .advantages-text {
   padding-left: 124px;
   padding-top: 32px;
@@ -118,49 +116,7 @@ p, .p {
 .advantages-text h3 {
   width: 40%;
 }
-
-.advantages-value-container-one-header {
-  display: flex;
-  justify-content: space-between;
-}
-
-.advantages-value-container-one {
-  padding: 32px;
-  background-color: rgb(58, 186, 82);
-  border-radius: 40px;
-}
-.advantages-value-container-one p {
-  color: white;
-}
-
-.advantages-value-container-two {
-  padding: 32px;
-  background-color: rgb(231, 122, 204);
-  border-radius: 40px;
-}
-.advantages-value-container-two p {
-  color: white;
-}
-
-.advantages-value-container-three {
-  padding: 32px;
-  background-color: rgb(231, 163, 79);
-  border-radius: 40px;
-}
-.advantages-value-container-three p {
-  color: white;
-}
-
-.advantages-value-container-four {
-  padding: 32px;
-  background-color: rgb(91, 115, 236);
-  border-radius: 40px;
-}
-.advantages-value-container-four p {
-  color: white;
-}
-
-.advantages-value {
+.advantages-wrap {
   padding-left: 124px;
   padding-right: 124px;
   display: grid;
@@ -169,4 +125,27 @@ p, .p {
   -moz-column-gap: 32px;
        column-gap: 32px;
   row-gap: 32px;
+}
+.advantages-value {
+  padding: 32px;
+  border-radius: 40px;
+}
+.advantages-value p {
+  color: white;
+}
+.advantages-value-header {
+  display: flex;
+  justify-content: space-between;
+}
+.advantages-value-one {
+  background-color: rgb(58, 186, 82);
+}
+.advantages-value-two {
+  background-color: rgb(231, 122, 204);
+}
+.advantages-value-three {
+  background-color: rgb(231, 163, 79);
+}
+.advantages-value-four {
+  background-color: rgb(91, 115, 236);
 }/*# sourceMappingURL=style.css.map */
